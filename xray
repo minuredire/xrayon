@@ -202,9 +202,9 @@ wget -q -O clear-log "https://raw.githubusercontent.com/minuredire/xrayon/main/o
 wget -q -O changer "https://raw.githubusercontent.com/minuredire/xrayon/main/other/changer.sh"
 sleep 0.5
 echo -e "${GB}[ INFO ]${NC} ${YB}Downloading Backup Menu${NC}"
-wget -q -O xp "https://raw.githubusercontent.com/minuredire/xrayon/main/backup/menu-backup"
-wget -q -O xp "https://raw.githubusercontent.com/minuredire/xrayon/main/backup/backup.sh"
-wget -q -O xp "https://raw.githubusercontent.com/minuredire/xrayon/main/backup/restore.sh"
+wget -q -O menu-backup "https://raw.githubusercontent.com/minuredire/xrayon/main/backup/menu-backup"
+wget -q -O backup "https://raw.githubusercontent.com/minuredire/xrayon/main/backup/backup.sh"
+wget -q -O restore "https://raw.githubusercontent.com/minuredire/xrayon/main/backup/restore.sh"
 echo -e "${GB}[ INFO ]${NC} ${YB}Download All Menu Done${NC}"
 sleep 2
 chmod +x add-vmess
