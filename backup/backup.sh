@@ -18,11 +18,6 @@ mkdir -p /root/backup
 sleep 1
 clear
 echo " Please Wait VPS Data Backup In Progress . . . "
-cp /etc/passwd backup/
-cp /etc/group backup/
-cp /etc/shadow backup/
-cp /etc/gshadow backup/
-cp /etc/crontab backup/
 cp -r /usr/local/etc/xray/ /backup/xray
 cp -r /var/www/html/ backup/html
 cd /root
