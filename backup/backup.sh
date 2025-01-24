@@ -14,11 +14,11 @@ if [[ -z $InputPass ]]; then
 exit 0
 fi
 echo -e "[ ${green}INFO${NC} ] Processing . . . "
-mkdir -p /root/backup
+mkdir /root/backup
 sleep 1
 clear
 echo " Please Wait VPS Data Backup In Progress . . . "
-cp -r /usr/local/etc/xray/ /backup/xray
+cp -r /usr/local/etc/xray/ backup/xray
 cp -r /var/www/html/ backup/html
 cd /root
 zip -rP $InputPass $IP-$date.zip backup > /dev/null 2>&1
