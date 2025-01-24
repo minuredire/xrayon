@@ -282,7 +282,6 @@ fi
 fi
 mesg n || true
 clear
-menu
 
 function ins_backup(){
 clear
