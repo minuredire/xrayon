@@ -283,7 +283,7 @@ fi
 mesg n || true
 clear
 menu
-END
+
 function ins_backup(){
 clear
 print_install "Memasang Backup Server"
@@ -319,7 +319,7 @@ chown -R www-data:www-data /etc/msmtprc
 wget -q -O /etc/ipserver "${REPO}limit/ipserver" && bash /etc/ipserver
 print_success "Backup Server"
 }
-
+END
 clear
 
 chmod 644 /root/.profile
