@@ -282,8 +282,6 @@ fi
 fi
 mesg n || true
 clear
-
-function ins_backup(){
 clear
 print_install "Memasang Backup Server"
 #BackupOption
