@@ -2,7 +2,7 @@ clear
 IP=$(wget -qO- icanhazip.com);
 date=$(date +"%Y-%m-%d")
 clear
-echo " VPS Data Backup By aixxy7 "
+echo " VPS Data Backup By joysvpn "
 sleep 1
 echo ""
 echo -e "[ ${green}INFO${NC} ] Please Insert Password To Secure Backup Data ."
