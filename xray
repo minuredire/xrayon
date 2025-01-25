@@ -206,7 +206,7 @@ wget -q -O changer "https://raw.githubusercontent.com/minuredire/xrayon/main/oth
 sleep 0.5
 echo -e "${GB}[ INFO ]${NC} ${YB}Downloading Backup Menu${NC}"
 wget -q -O menu-backup "https://raw.githubusercontent.com/minuredire/xrayon/main/backup/menu-backup"
-wget -q -O backup "https://raw.githubusercontent.com/minuredire/xrayon/main/backup/backup.sh"
+wget -q -O backup "https://raw.githubusercontent.com/minuredire/xrayon/main/backup/backup"
 wget -q -O restore "https://raw.githubusercontent.com/minuredire/xrayon/main/backup/restore.sh"
 echo -e "${GB}[ INFO ]${NC} ${YB}Download All Menu Done${NC}"
 sleep 2
